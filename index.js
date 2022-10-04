@@ -80,7 +80,7 @@ class Chain {
         }
     }
 }
-Chain.instance = new Chain();
+Chain.instance = new Chain(); // to ensure only one instance of the Chain class
 class Wallet {
     constructor() {
         const keypair = crypto.generateKeyPairSync('rsa', {

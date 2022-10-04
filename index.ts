@@ -81,7 +81,7 @@ class Chain {
 
 class Wallet {
     public publicKey: string;
-    public privateKey: string;
+    private privateKey: string;
 
     constructor(){
         
